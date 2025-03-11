@@ -1,0 +1,43 @@
+.logo_img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -12px;
+}
+.nav_container{
+    position: relative;
+}
+.navbar {
+    height: fit-content;
+    
+}
+.react-select{
+    z-index: 1000;
+    min-width: 15rem;
+}
+
+.search_container {
+    padding-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 20rem;
+    overflow: scroll;
+    width: 30%;
+    border-radius: 15px;
+    position: absolute;
+    left: 18%;
+    z-index: 9000;
+    background-color: white;
+}
+ul{
+    width: 100%;
+    padding-left: 0 !important;
+}
+li:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    height: 100%;
+
+}
